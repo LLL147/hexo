@@ -1,0 +1,19 @@
+/* 网站背景 */
+#web_bg {
+  background: url("https://api.yimian.xyz/img?type=moe");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+/* 夜间模式背景 */
+[data-theme='dark'] #web_bg {
+  background: url("https://api.ixiaowai.cn/api/api.php");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
